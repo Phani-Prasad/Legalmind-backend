@@ -1,0 +1,143 @@
+{
+  "BA_LLB": {
+    "1st_Semester": {
+      "Law_of_Torts": {
+        "Unit_I": {
+            "title": "Evolution and Definition of Tort",
+            "topics": [
+                "Nature and Definition of Tort",
+                "Evolution of Law of Torts in India",
+                "Tort and Contract",
+                "Tort and Crime"
+            ]
+        },
+        "Unit_II": {
+            "title": "General Defences",
+            "topics": [
+                "Volenti non fit injuria",
+                "Act of God",
+                "Inevitable Accident",
+                "Statutory Authority"
+            ]
+        }
+      },
+      "Law_of_Contracts": {
+        "Unit_I": {
+            "title": "General Principles",
+            "topics": [
+                "Definition of Contract",
+                "Agreement, Offer and Acceptance",
+                "Consideration",
+                "Capacity to Contract"
+            ]
+        }
+      },
+      "Constitutional_Law": {
+        "Unit_I": {
+          "title": "Introduction to Constitution & Preamble",
+          "topics": [
+            "Meaning & Definition of Constitution",
+            "Kinds of Constitution",
+            "Constitutionalism",
+            "Salient features of Indian Constitution",
+            "Preamble: Meaning, Scope, Importance",
+            "Objectives and Values in the Preamble",
+            "Citizenship: Modes of acquisition and termination"
+          ]
+        },
+        "Unit_II": {
+          "title": "State & Concept of Law",
+          "topics": [
+            "Definition of State under Article 12",
+            "New judicial trends on State Action",
+            "Definition and Meaning of Law",
+            "Pre & Post Constitutional Laws",
+            "Doctrine of Severability and Eclipse",
+            "Judicial Review and Article 13",
+            "Equality and Social Justice (Article 14)"
+          ]
+        },
+        "Unit_III": {
+          "title": "Social Justice & Fundamental Freedoms",
+          "topics": [
+            "Protective Discrimination (Articles 15 & 16)",
+            "Untouchability (Article 17)",
+            "Freedom of Speech and Expression (Article 19)",
+            "Freedoms of Assembly, Association, movement",
+            "Reasonable restrictions on freedoms"
+          ]
+        },
+        "Unit_IV": {
+          "title": "Rights of Accused & Life Liberty",
+          "topics": [
+            "Rights of Accused (Article 20): Double Jeopardy, Self-incrimination",
+            "Rights of Arrested Person (Article 22)",
+            "Right to Life and Personal Liberty (Article 21)",
+            "Right against Exploitation",
+            "Secularism and Freedom of Religion"
+          ]
+        },
+        "Unit_V": {
+          "title": "Remedies & Property Rights",
+          "topics": [
+            "Cultural and Educational Rights of Minorities",
+            "Right to Constitutional Remedies (Articles 32 & 226)",
+            "Kinds of Writs",
+            "Right to Property: Historical & Present Position"
+          ]
+        }
+      },
+      "Criminal_Law_BNS": {
+        "Unit_I": {
+          "title": "General Principles of Crime",
+          "topics": [
+            "Conceptions of Crime & Distinction from other wrongs",
+            "Actus reus and Mens rea",
+            "Mistake, intoxication, compulsion",
+            "Parties to Crime: Principals & Accessories",
+            "BNS/IPC General Explanations (Sec 1-52A)",
+            "Punishments (Sec 53-75)"
+          ]
+        },
+        "Unit_II": {
+          "title": "General Exceptions & Specific Offences",
+          "topics": [
+            "General Exceptions (Sec 76-106)",
+            "Abetment & Criminal Conspiracy",
+            "Offences against State & Public Tranquility",
+            "Difference between Section 34 & 149",
+            "Contempt of lawful authority",
+            "False Evidence & Offences relating to Coins"
+          ]
+        },
+        "Unit_III": {
+          "title": "Offences Affecting Human Life",
+          "topics": [
+            "Hurt & Grievous Hurt",
+            "Wrongful Restraint & Confinement",
+            "Criminal Force and Assault",
+            "Culpable Homicide & Murder"
+          ]
+        },
+        "Unit_IV": {
+          "title": "Offences against Property & Persons",
+          "topics": [
+            "Kidnapping and Abduction",
+            "Sexual Offences: Rape (Sec 375-377)",
+            "Theft, Robbery, Dacoity",
+            "Criminal Breach of Trust & Cheating"
+          ]
+        },
+        "Unit_V": {
+          "title": "Marriage, Defamation & Others",
+          "topics": [
+            "Mischief & Criminal Trespass",
+            "Offences relating to Marriage (Sec 493-498A)",
+            "Defamation (Sec 499-502)",
+            "Criminal Intimidation & Attempts"
+          ]
+        }
+      }
+    }
+  }
+}
