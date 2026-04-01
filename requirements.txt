@@ -7,7 +7,7 @@ sqlmodel
 psycopg2-binary
 aiofiles
 python-multipart
-jose
+python-jose[cryptography]
 bcrypt
 passlib
 pypdf
@@ -16,3 +16,4 @@ requests
 yt-dlp
 youtube-transcript-api
 moviepy
+reportlab
