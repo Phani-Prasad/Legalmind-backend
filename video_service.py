@@ -60,7 +60,8 @@ def extract_video_id(url: str) -> str | None:
 def get_youtube_transcript(video_id: str, client=None) -> str:
     """
     Fetch transcript/captions for a YouTube video.
-    Compatible with youtube-transcript-api v1.x (fetch + list API).
+    Primary: youtube-transcript-api (Fast)
+    Fallback: yt-dlp (Robust for IP blocks on Cloud servers)
 
     Parameters:
         video_id: YouTube video ID string
@@ -72,43 +73,121 @@ def get_youtube_transcript(video_id: str, client=None) -> str:
     if not video_id:
         raise ValueError("A valid YouTube video ID is required.")
 
-    # v1.x: YouTubeTranscriptApi must be instantiated (no longer static)
-    api = YouTubeTranscriptApi()
-
+    # 1. Try Standard YouTubeTranscriptApi (Fastest)
     try:
-        # --- Try fetching English directly first (fastest path) ---
-        try:
-            fetched = api.fetch(video_id, languages=['en', 'en-US', 'en-GB'])
-            return " ".join(entry.text for entry in fetched).strip()
-        except Exception:
-            pass  # Fall through to language-discovery path
-
-        # --- Discover all available transcripts and pick the first ---
+        # In this environment, YouTubeTranscriptApi uses instance methods .list() and .fetch()
+        api = YouTubeTranscriptApi()
         transcript_list = api.list(video_id)
-        available = list(transcript_list)
-        if not available:
-            raise RuntimeError("No transcripts are available for this video.")
+        
+        # Look for English
+        target = None
+        for t in transcript_list:
+            if t.language_code.startswith('en'):
+                target = t
+                break
+        
+        # If no English, pick any available
+        if not target:
+            target = next(iter(transcript_list))
+            
+        return " ".join(entry.text for entry in api.fetch(video_id, languages=[target.language_code])).strip()
 
-        # Pick first available language
-        first = available[0]
-        fetched = api.fetch(video_id, languages=[first.language_code])
-        return " ".join(entry.text for entry in fetched).strip()
-
-    except RuntimeError:
-        raise
     except Exception as e:
-        err_str = str(e).lower()
-        if "disabled" in err_str or "no transcripts" in err_str:
+        err_msg = str(e).lower()
+        # If it's just disabled, don't even try yt-dlp (it will fail too)
+        if "disabled" in err_msg or "no transcripts" in err_msg:
             raise RuntimeError(
                 "Transcripts are disabled for this video. "
                 "Try a video with captions enabled, or use the 'Upload Video' option."
             )
-        if "unavailable" in err_str or "private" in err_str:
-            raise RuntimeError(
-                "The video is unavailable. It may be private, deleted, or region-locked."
-            )
-        logger.error(f"YouTube transcript error for video_id={video_id}: {e}")
-        raise RuntimeError(f"Could not retrieve transcript: {str(e)}")
+        
+        # 2. Try Fallback with yt-dlp (Bypasses many IP blocks/limitations)
+        logger.warning(f"Standard API failed for {video_id} ({e}). Attempting yt-dlp fallback...")
+        try:
+            return _fetch_with_yt_dlp(video_id)
+        except Exception as fallback_err:
+            logger.error(f"YouTube transcript error for video_id={video_id}: {fallback_err}")
+            
+            if "youtube is blocking" in str(fallback_err).lower() or "403" in str(fallback_err):
+                raise RuntimeError(
+                    "YouTube blocked the request from this server (Common on Render/Cloud). "
+                    "Please try the 'Upload Video' option or use a video with accessible captions."
+                )
+            
+            raise RuntimeError(f"Could not retrieve transcript: {str(fallback_err)}")
+
+
+def _fetch_with_yt_dlp(video_id: str) -> str:
+    """
+    Fallback method using yt-dlp to extract subtitles.
+    Useful when youtube-transcript-api is blocked by cloud provider IP bans.
+    """
+    import yt_dlp
+    import requests
+    import re
+    
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    ydl_opts = {
+        'skip_download': True,
+        'writesubtitles': True,
+        'writeautomaticsub': True,
+        'quiet': True,
+        'no_warnings': True,
+    }
+    
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            
+            # Check for manually created subtitles first
+            subs = info.get('subtitles', {})
+            # Check for auto-generated captions
+            auto_subs = info.get('automatic_captions', {})
+            
+            # Look for English (en, en-US, etc.)
+            target_sub = None
+            for lang in ['en', 'en-US', 'en-GB', 'en-IN']:
+                if lang in subs:
+                    target_sub = subs[lang]
+                    break
+                if lang in auto_subs:
+                    target_sub = auto_subs[lang]
+                    break
+            
+            if not target_sub:
+                if subs:
+                    target_sub = next(iter(subs.values()))
+                elif auto_subs:
+                    target_sub = next(iter(auto_subs.values()))
+                
+            if target_sub:
+                # Prefer json3 format if available (easiest to parse)
+                selected = next((s for s in target_sub if s.get('ext') == 'json3'), 
+                            next((s for s in target_sub if s.get('ext') == 'vtt'), 
+                            target_sub[0]))
+                
+                resp = requests.get(selected['url'], timeout=10)
+                resp.raise_for_status()
+                
+                if selected.get('ext') == 'json3':
+                    data = resp.json()
+                    text = ""
+                    for event in data.get('events', []):
+                        if 'segs' in event:
+                            for seg in event['segs']:
+                                text += seg.get('utf8', '')
+                        text += " "
+                    return " ".join(text.split()).strip()
+                else:
+                    # Basic VTT/text cleanup
+                    clean = re.sub(r'<[^>]+>', '', resp.text)
+                    clean = re.sub(r'\d{2}:\d{2}:\d{2}\.\d{3} --> \d{2}:\d{2}:\d{2}\.\d{3}', '', clean)
+                    clean = re.sub(r'WEBVTT|Kind: captions|Language: \w+', '', clean)
+                    return " ".join(clean.split()).strip()
+            
+            raise RuntimeError("No captions available for this video.")
+    except Exception as e:
+        raise RuntimeError(f"yt-dlp extraction failed: {str(e)}")
 
 
 # ── Video File Transcription ────────────────────────────────────────────────────
