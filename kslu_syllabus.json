@@ -1,142 +1,275 @@
 {
   "BA_LLB": {
     "1st_Semester": {
+      "Constitutional_Law_I": {
+        "Unit_I": { "title": "Meaning & Definition of Constitution", "topics": ["kinds of Constitution", "Constitutionalism", "Salient features of Indian Constitution", "Preamble: Meaning, Scope, Importance, Objectives and Values", "Citizenship: modes of acquisition & termination"] },
+        "Unit_II": { "title": "State & Concept of Law", "topics": ["Definition of State under Article 12", "New Judicial trends on concept of State Action", "Pre-Constitutional and Post-Constitutional Laws", "Doctrine of Severability", "Doctrine of Eclipse", "Judicial Review and Article 13", "Equality and Social Justice (Article 14)", "New Concept of Equality"] },
+        "Unit_III": { "title": "Protective Discrimination & Freedom", "topics": ["Protective Discrimination under Articles 15 and 16", "New Judicial trends on Social Justice", "Untouchability (Article 17)", "Freedom of Speech and Expression", "Freedom of Assembly, Association, Movement and Residence", "Profession, Occupation, Trade or business", "Reasonable restrictions"] },
+        "Unit_IV": { "title": "Rights of Accused & Life Liberty", "topics": ["Ex-post facto Law", "Double jeopardy", "Right against self incrimination (Article 20)", "Rights of the arrested person", "Preventive Detention Laws (Article 22)", "Right to Life and Personal Liberty (Article 21)", "Right against Exploitation", "Secularism", "Freedom of Religion", "Restrictions on freedom of religion"] },
+        "Unit_V": { "title": "Remedies & DPSP", "topics": ["Cultural and Educational Rights of minorities", "Right to Constitutional Remedies: Article 32 and 226", "Kinds of writs", "Right to property", "Directive Principles of State Policy", "Fundamental Duties", "Inter relation between fundamental rights and directive principles"] }
+      },
+      "Contract_I": {
+        "Unit_I": { "title": "Formation of Contract", "topics": ["Agreement and Contract", "Definitions", "Classification", "Offer and Acceptance", "Communication and Revocation", "Essential elements", "Invitation to Offer", "Tenders", "Consideration", "Nudum Pactum", "Privity of Contract", "Unlawful Consideration", "e-contract"] },
+        "Unit_II": { "title": "Capacity & Consent", "topics": ["Minor's Agreements", "Persons of unsound mind", "Free Consent", "Coercion", "Undue influence", "Misrepresentation", "Fraud", "Mistake", "Legality of Object", "Void Agreements", "Contingent Contracts"] },
+        "Unit_III": { "title": "Discharge of Contracts", "topics": ["Modes of Discharge", "Time and place of performance", "Performance of reciprocal promises", "Appropriation of Payments", "Discharge by Agreement", "Operation of Law", "Frustration (Impossibility of Performance)", "Breach (Anticipatory and Actual)"] },
+        "Unit_IV": { "title": "Remedies for Breach", "topics": ["Damages", "Kinds of damages", "Remoteness of damages", "Ascertainment of damages", "Quasi Contracts"] },
+        "Unit_V": { "title": "Specific Relief Act", "topics": ["Sections 9-16, 21, 24, 36-42", "Nature of Specific Relief", "Recovery of Possession", "Specific performance when granted and not granted", "Discretionary remedy", "Rectification of instruments", "Cancellation", "Declaratory decrees", "Preventive relief", "Injunctions"] }
+      },
       "Law_of_Torts": {
-        "Unit_I": {
-            "title": "Evolution and Definition of Tort",
-            "topics": [
-                "Nature and Definition of Tort",
-                "Evolution of Law of Torts in India",
-                "Tort and Contract",
-                "Tort and Crime"
-            ]
-        },
-        "Unit_II": {
-            "title": "General Defences",
-            "topics": [
-                "Volenti non fit injuria",
-                "Act of God",
-                "Inevitable Accident",
-                "Statutory Authority"
-            ]
-        }
+        "Unit_I": { "title": "Evolution & Nature", "topics": ["Nature and scope of law of torts", "Torts distinguished from Contract and Crime", "Ubi jus ibi Remedium", "Mental elements: Intention, Motive, Malice"] },
+        "Unit_II": { "title": "Defences & Liability", "topics": ["General Defences", "Vicarious Liability"] },
+        "Unit_III": { "title": "Specific Torts & Remedies", "topics": ["Negligence", "Nuisance", "Absolute and Strict liability", "Legal Remedies", "Awards", "Remoteness of damage"] },
+        "Unit_IV": { "title": "Torts against Person & Property", "topics": ["Assault, Battery, Mayhem and False Imprisonment", "Libel and Slander", "Malicious Prosecution", "Abuse of Legal Process", "Marital and Parental Rights", "Contractual Rights", "Intimidation and Conspiracy", "Torts against property"] },
+        "Unit_V": { "title": "Consumer Protection & MV Act", "topics": ["Consumer Protection Act 1986", "Who is consumer", "Defect in goods", "Deficiency in services", "Remedies to consumers", "Consumer Disputes Redressal Agencies", "MV Act 1988", "Liability without fault", "Insurance of Motor Vehicles", "Claims Tribunal"] }
       },
-      "Law_of_Contracts": {
-        "Unit_I": {
-            "title": "General Principles",
-            "topics": [
-                "Definition of Contract",
-                "Agreement, Offer and Acceptance",
-                "Consideration",
-                "Capacity to Contract"
-            ]
-        }
+      "Family_Law_I": {
+        "Unit_I": { "title": "Concept of Dharma & Sources", "topics": ["Sources of Hindu Law (Ancient and Modern)", "Importance of Dharma Shastra", "Mitakshara and Dayabaga Schools", "Application of Hindu Law"] },
+        "Unit_II": { "title": "Marriage & Matrimonial Remedies", "topics": ["Evolution of Marriage and Family", "Hindu Marriage Act 1955", "Matrimonial Remedies", "Maintenance and Alimony", "Dowry Prohibition"] },
+        "Unit_III": { "title": "HUF & Joint Family", "topics": ["Mitakshara Joint Family", "Kartha: Position, Powers, Obligations", "Debts", "Doctrine of Pious Obligation", "Partition and Reunion", "Religious and Charitable Endowment"] },
+        "Unit_IV": { "title": "Inheritance & Succession", "topics": ["Hindu Succession Act 1956", "Stridhana (Woman's Property)", "Amendments to Hindu Succession Act", "Gifts and Testamentary Succession", "Wills"] },
+        "Unit_V": { "title": "Minority & Guardianship", "topics": ["Kinds of Guardians", "Duties & Powers of Guardians", "Hindu Adoption and Maintenance Act 1956", "Maintenance: Traditional and Statutory Rights"] }
       },
-      "Constitutional_Law": {
-        "Unit_I": {
-          "title": "Introduction to Constitution & Preamble",
-          "topics": [
-            "Meaning & Definition of Constitution",
-            "Kinds of Constitution",
-            "Constitutionalism",
-            "Salient features of Indian Constitution",
-            "Preamble: Meaning, Scope, Importance",
-            "Objectives and Values in the Preamble",
-            "Citizenship: Modes of acquisition and termination"
-          ]
-        },
-        "Unit_II": {
-          "title": "State & Concept of Law",
-          "topics": [
-            "Definition of State under Article 12",
-            "New judicial trends on State Action",
-            "Definition and Meaning of Law",
-            "Pre & Post Constitutional Laws",
-            "Doctrine of Severability and Eclipse",
-            "Judicial Review and Article 13",
-            "Equality and Social Justice (Article 14)"
-          ]
-        },
-        "Unit_III": {
-          "title": "Social Justice & Fundamental Freedoms",
-          "topics": [
-            "Protective Discrimination (Articles 15 & 16)",
-            "Untouchability (Article 17)",
-            "Freedom of Speech and Expression (Article 19)",
-            "Freedoms of Assembly, Association, movement",
-            "Reasonable restrictions on freedoms"
-          ]
-        },
-        "Unit_IV": {
-          "title": "Rights of Accused & Life Liberty",
-          "topics": [
-            "Rights of Accused (Article 20): Double Jeopardy, Self-incrimination",
-            "Rights of Arrested Person (Article 22)",
-            "Right to Life and Personal Liberty (Article 21)",
-            "Right against Exploitation",
-            "Secularism and Freedom of Religion"
-          ]
-        },
-        "Unit_V": {
-          "title": "Remedies & Property Rights",
-          "topics": [
-            "Cultural and Educational Rights of Minorities",
-            "Right to Constitutional Remedies (Articles 32 & 226)",
-            "Kinds of Writs",
-            "Right to Property: Historical & Present Position"
-          ]
-        }
+      "Criminal_Law_I": {
+        "Unit_I": { "title": "General Principles", "topics": ["Conceptions of Crime", "Actus reus and Mens rea", "Mistake, intoxication, compulsion", "Parties to crime", "IPC General Explanations (Sec 1-52A)", "Punishment (Sec 53-75)"] },
+        "Unit_II": { "title": "General Exceptions & Specific Offences", "topics": ["General Exceptions (Sec 76-106)", "Abetment", "Criminal Conspiracy", "Offences against State", "Offences against Public Tranquility", "Contempt of lawful Authority", "False evidence", "Offences relating to coins and Government Stamps", "Public and Private Nuisance", "Offences relating to religion"] },
+        "Unit_III": { "title": "Offences affecting Human Life", "topics": ["Culpable Homicide and Murder (Sec 299-311)", "Hurt and Grievous Hurt", "Wrongful restraint and confinement", "Criminal force and Assault"] },
+        "Unit_IV": { "title": "Offences against Property", "topics": ["Kidnapping and Abduction", "Sexual offences (Rape, Sec 375-377)", "Theft, robbery and dacoity", "Criminal Misappropriation", "Criminal breach of trust", "Receiving of stolen property"] },
+        "Unit_V": { "title": "Mischief & Others", "topics": ["Mischief", "Criminal Trespass", "Offences relating to documents", "Offences relating to marriage (Sec 493-498A)", "Defamation (Sec 499-502)", "Criminal intimidation", "Attempt to commit offences"] }
       },
-      "Criminal_Law_BNS": {
-        "Unit_I": {
-          "title": "General Principles of Crime",
-          "topics": [
-            "Conceptions of Crime & Distinction from other wrongs",
-            "Actus reus and Mens rea",
-            "Mistake, intoxication, compulsion",
-            "Parties to Crime: Principals & Accessories",
-            "BNS/IPC General Explanations (Sec 1-52A)",
-            "Punishments (Sec 53-75)"
-          ]
-        },
-        "Unit_II": {
-          "title": "General Exceptions & Specific Offences",
-          "topics": [
-            "General Exceptions (Sec 76-106)",
-            "Abetment & Criminal Conspiracy",
-            "Offences against State & Public Tranquility",
-            "Difference between Section 34 & 149",
-            "Contempt of lawful authority",
-            "False Evidence & Offences relating to Coins"
-          ]
-        },
-        "Unit_III": {
-          "title": "Offences Affecting Human Life",
-          "topics": [
-            "Hurt & Grievous Hurt",
-            "Wrongful Restraint & Confinement",
-            "Criminal Force and Assault",
-            "Culpable Homicide & Murder"
-          ]
-        },
-        "Unit_IV": {
-          "title": "Offences against Property & Persons",
-          "topics": [
-            "Kidnapping and Abduction",
-            "Sexual Offences: Rape (Sec 375-377)",
-            "Theft, Robbery, Dacoity",
-            "Criminal Breach of Trust & Cheating"
-          ]
-        },
-        "Unit_V": {
-          "title": "Marriage, Defamation & Others",
-          "topics": [
-            "Mischief & Criminal Trespass",
-            "Offences relating to Marriage (Sec 493-498A)",
-            "Defamation (Sec 499-502)",
-            "Criminal Intimidation & Attempts"
-          ]
-        }
+      "English": {
+        "Unit_I": { "title": "Law and Lawyers", "topics": ["M. K. Gandhi - Prose text analysis"] },
+        "Unit_II": { "title": "Grammar & Legal Usage", "topics": ["Articles and Parts of Speech", "Identification of errors", "Types of sentences", "Change of voice", "Reported Speech", "Idioms", "Legal words and their usage"] },
+        "Unit_III": { "title": "Applied Writing", "topics": ["Paragraph and Report writing", "Precis writing and Summarizing", "Essay writing", "Cohesive devices", "Comprehension passages", "Letter writing"] },
+        "Unit_IV": { "title": "Professional Writing", "topics": ["Petitions", "Notices", "Refutation", "Legal Essay writing", "Legal Comprehension", "Legal words and cohesive devices"] },
+        "Unit_V": { "title": "Translation", "topics": ["Principles of Translation", "Translation from legal texts and decided cases"] }
+      }
+    },
+    "2nd_Semester": {
+      "Constitutional_Law_II": {
+        "Unit_I": { "title": "Federal System & State Organization", "topics": ["Relationship between Centre and State (Legislative, Financial, Administrative)", "Co-operative Federalism", "Freedom of Trade and Commerce", "Official Language", "Local self-government (73rd & 74th Amendment)", "Article 370 (Jammu & Kashmir)", "Special provisions Articles 371-A to 371-J"] },
+        "Unit_II": { "title": "Executive & Legislature", "topics": ["President and Governor: powers and functions", "Parliament and State Legislature: Composition and powers", "Bicameralism", "Councils of ministers: collective responsibility", "Position of Prime Minister and Chief Minister"] },
+        "Unit_III": { "title": "Speaker & Judiciary", "topics": ["Speaker: Powers, Functions, Privileges", "Anti-Defection Law", "Judiciary: Union and States", "Appointment, powers, jurisdiction and Transfer of judges"] },
+        "Unit_IV": { "title": "Subordinate Judiciary & Commissions", "topics": ["Subordinate Judiciary", "Administrative Tribunals", "Public Service Commission", "Constitutional protection to Civil Servants", "Election Commission: Powers and functions", "State liability for Torts and Contract"] },
+        "Unit_V": { "title": "Emergency Provisions", "topics": ["Types of Emergency", "Effects of Emergency", "Effects on Fundamental Rights"] }
+      },
+      "Contract_II": {
+        "Unit_I": { "title": "Indemnity & Guarantee", "topics": ["Indemnity: Definition, Nature, Scope", "Rights of indemnity holder", "Liability of indemnifier", "Guarantee: Definition and Scope", "Difference between Indemnity and Guarantee", "Rights of surety", "Discharge of Surety", "Extent of Surety’s liability", "Co-surety"] },
+        "Unit_II": { "title": "Bailment & Pledge", "topics": ["Bailment: Definition and Kinds", "Rights and Duties of Bailor and Bailee", "Rights of Finder of goods", "Pledge: Definition", "Comparison with Bailment", "Rights and duties of Pawnor and Pawnee"] },
+        "Unit_III": { "title": "Agency", "topics": ["Definition and Creation of Agency", "Kinds of Agents", "Agent vs Servant", "Rights and Duties of Agent", "Relation of Principal with third parties", "Delegation", "Extent of Agents authority", "Personal liability of Agent", "Termination of Agency"] },
+        "Unit_IV": { "title": "Partnership", "topics": ["Indian Partnership Act: Definition and Nature", "Existence of Partnership", "Relation of Partners", "Rights and duties of partner", "Relation with third parties", "Types of partners", "Admission, Retirement, and Expulsion", "Dissolution of Firm", "Registration of Firms"] },
+        "Unit_V": { "title": "Sale of Goods", "topics": ["Sale of Goods Act: Contract of sale", "Agreement to sell", "Conditions and Warranties", "Passing of property", "Transfer of title", "Performance of the Contract", "Rights of Unpaid Seller", "Remedies for Breach of Contract"] }
+      },
+      "Labour_Law_I": {
+        "Unit_I": { "title": "Trade Unions", "topics": ["Historical aspects", "Trade Unionism in India and UK", "Trade Unions Act 1926", "Registration, withdrawal and cancellation", "Funds and Immunities", "Recognition of Trade Unions", "Collective Bargaining"] },
+        "Unit_II": { "title": "Industrial Disputes", "topics": ["Industrial Disputes Act 1947", "Definitions: Industry, Workman, Dispute", "Dispute resolution machinery", "Works Committee", "Conciliation", "Voluntary Arbitration U/S 10-A", "Compulsory Adjudication", "Award and Settlement"] },
+        "Unit_III": { "title": "Strikes & Job Losses", "topics": ["Regulation of strikes and lockouts", "Illegal strikes and penalties", "Lay-off, Retrenchment, Closure", "Transfer of undertakings", "Regulation of managerial prerogatives", "Certified Standing Orders"] },
+        "Unit_IV": { "title": "Social Security", "topics": ["Concept and Importance of Social Security", "Employees’ Compensation Act 1923", "Employer’s liability for compensation", "Employees’ State Insurance Act 1948", "Benefits available", "ESI Corporation", "Adjudication of Disputes"] },
+        "Unit_V": { "title": "Wages & Factories", "topics": ["Payment of Wages Act 1936", "Deductions", "Authorities", "Factories Act 1948", "Health, safety and welfare of workers", "Hazardous process", "Working conditions", "Employment of women and children"] }
+      },
+      "Property_Law": {
+        "Unit_I": { "title": "General Principles", "topics": ["Transfer of Property inter-vivos", "Concept of immovable property", "Competency to transfer", "Conditions restraining alienation", "Rule against perpetuity", "Vested and Contingent interest"] },
+        "Unit_II": { "title": "Specific Doctrines", "topics": ["Doctrine of election", "Transfer by ostensible and co-owner", "Apportionment", "Priority of rights", "Improvements by bonafide holder", "Doctrine of Lis pendens", "Fraudulent transfer", "Part-performance"] },
+        "Unit_III": { "title": "Mortgages & Charges", "topics": ["Mortgages: Definition and Kinds", "Rights and liabilities of mortgagor and mortgagee", "Priority of securities", "Marshalling and contribution", "Charges"] },
+        "Unit_IV": { "title": "Sale, Lease, Exchange & Gift", "topics": ["Sale of immovable property", "Rights and liabilities of seller and buyer", "Leases: Definition and Scope", "Rights and liabilities of lessor and lessee", "Exchange", "Actionable Claims", "Gifts: Scope and meaning", "Universal and onerous gifts"] },
+        "Unit_V": { "title": "Law of Trusts", "topics": ["Definitions of Trust", "Comparison with Debt, Agency, etc.", "Kinds of Trusts", "Creation of Trust", "Appointment and Duties of Trustees", "Rights and Liabilities of Beneficiary", "Extinction of Trusts"] }
+      },
+      "Family_Law_II": {
+        "Unit_I": { "title": "Islamic Law & Marriage", "topics": ["Schools of Islamic Law", "Conversion consequences", "Shariat Act 1937", "Sources of Islamic Law", "Marriage: Definition, object, requirements", "Legal effects of marriage", "Muta marriage", "Polygamy", "Dower (Mahr)"] },
+        "Unit_II": { "title": "Legitimacy & Matrimonial Relief", "topics": ["Parentage and Legitimacy", "Guardianship and parental rights", "Matrimonial Remedies", "Modes of Talak", "Effects of Talak", "Iddat", "Alimony and Maintenance", "Muslim Women (Protection of Rights on Divorce) Act 1986"] },
+        "Unit_III": { "title": "Wills, Gifts & Wakf", "topics": ["Will (Wasiyat): Limitations", "Gifts (Hiba): Essentials and Revocation", "Wakf: Essentials and Mutawalli", "Pre-emption (Shufa)"] },
+        "Unit_IV": { "title": "Inheritance & Succession", "topics": ["Muslim law of Inheritance (Shia and Sunni)", "Indian Succession Act 1925", "Intestate succession (Christians, Parsis)", "Domicile", "Probate and letters of administration"] },
+        "Unit_V": { "title": "Wills & Family Courts", "topics": ["Privileged and unprivileged wills", "Kinds of Legacies", "Ademption", "Protection of property", "Curator", "Family Courts Act 1984", "Uniform Civil Code (Article 44)"] }
+      },
+      "Kannada_Kali": { "Unit_I": { "title": "Basic Kannada", "topics": ["Alphabets", "Conversation", "Grammar basics"] } }
+    },
+    "3rd_Semester": {
+      "Jurisprudence": {
+        "Unit_I": { "title": "Nature and Schools", "topics": ["Meaning and nature of Jurisprudence", "Purpose and value", "Natural law", "Imperative Theory", "Legal Realism", "Historical School", "Sociological School"] },
+        "Unit_II": { "title": "Law and Justice", "topics": ["Functions and purpose of law", "Questions of law, fact and discretion", "Justice and its kinds", "Civil and Criminal Administration of Justice", "Theories of Punishment", "Secondary functions of the Court"] },
+        "Unit_III": { "title": "Sources of Law", "topics": ["Legislation", "Precedent", "Custom", "Comparative study of sources"] },
+        "Unit_IV": { "title": "Legal Concepts", "topics": ["Right and Duty", "Possession and Ownership", "Idea of Ownership", "Nature of Personality", "Status of the Unborn, Minor, Lunatic, and Dead Persons"] },
+        "Unit_V": { "title": "Liability & Procedure", "topics": ["Conditions for imposing liability", "Wrongful act: Damnum Sine Injuria", "Causation, Mens rea, Intention, Malice", "Negligence and Recklessness", "Strict and Vicarious liability", "Substantive vs Procedural Law"] }
+      },
+      "Labour_Law_II": {
+        "Unit_I": { "title": "Constitutional Dimensions", "topics": ["Constitution and Labour welfare", "Bonded Labour System Abolition Act 1976", "Equal Remuneration Act 1976", "Inter-State Migration of Workers Act 1979", "Sexual Harassment at Workplace Act 2013"] },
+        "Unit_II": { "title": "Wages, Bonus and Gratuity", "topics": ["Concept and Theories of Wages", "Minimum Wages Act 1948", "Fixation of Minimum rates", "Payment of Bonus Act 1965", "Payment of Gratuity Act 1972", "Determination of gratuity"] },
+        "Unit_III": { "title": "Child & Contract Labour", "topics": ["Child Labour (Prohibition and Regulation) Act 1986", "Constitutional provisions for child protection", "Child Labour Amendment Act 2016", "Contract Labour (Regulation & Abolition) Act 1970", "Abolition and regularisation of contract labour"] },
+        "Unit_IV": { "title": "Social Security Schemes", "topics": ["Employees’ Provident Fund Act 1952", "PF, Family Pension, and Insurance Schemes", "Maternity Benefit Act 1961", "Benefits under the Act"] },
+        "Unit_V": { "title": "Unorganised Labour", "topics": ["Unorganised Workers’ Social Security Act 2008", "Karnataka Shops and Commercial Establishments Act 1961", "Globalisation and Labour", "Welfare State Mandate", "Special Economic Zones (SEZs) laws"] }
+      },
+      "Law_of_Taxation": {
+        "Unit_I": { "title": "General Concepts & Power", "topics": ["Nature of different taxes", "Direct vs Indirect taxes", "Tax vs Fee vs Cess", "Tax evasion, planning and avoidance", "Federal Base of Taxing Power", "Fundamental Rights and Taxation", "Commerce Clause"] },
+        "Unit_II": { "title": "Direct Tax (Income Tax)", "topics": ["Income Tax Act 1961", "Basis of taxation", "Residential Status", "Heads of Income: Salary, Property, Business, Capital Gains, Other Sources", "Exemptions and Deductions", "Assessment kinds", "IT Authorities", "Recovery and Appeals"] },
+        "Unit_III": { "title": "Indirect Tax (GST I)", "topics": ["Concept of GST", "Constitution (122nd Amendment) Act 2017", "Central GST (CGST) Act 2017", "Dual GST model", "GST Council", "Levy on transactions", "IGST/SGST/UTGST overview", "GSTN Portal"] },
+        "Unit_IV": { "title": "Indirect Tax (GST II)", "topics": ["Integrated GST (IGST)", "Inter-state transactions", "State GST (SGST) Law", "Union Territory GST (UTGST) Law", "Securities Transaction Tax (STT)"] },
+        "Unit_V": { "title": "Custom Law", "topics": ["Legislative Background", "Levy, exemption and collection of customs", "Clearance of goods and baggage", "Goods in transit", "Duty drawbacks", "Customs Authorities", "SEZ Units"] }
+      },
+      "Criminal_Law_II": {
+        "Unit_I": { "title": "Pre-trial Process", "topics": ["Meaning of procedure", "Functionaries under Cr.P.C", "FIR and Complaint", "Arrest", "Inquest, Inquiry, Investigation", "Features of a fair trial"] },
+        "Unit_II": { "title": "Trial Process I", "topics": ["Cognizance by Magistrate", "Commencement of proceedings", "Charge", "Compelling appearance", "Bail provisions", "Preliminary pleas", "Security for peace"] },
+        "Unit_III": { "title": "Trial Process II", "topics": ["Provisions as to Inquiries and Trials", "Types of trial", "Judgment", "Appeals, Revision and Reference", "Maintenance provisions"] },
+        "Unit_IV": { "title": "Miscellaneous Process", "topics": ["Transfer of cases", "Execution and suspension of sentences", "Disposal of property", "Irregular proceedings", "Limitation of cognizance", "Compounding and Plea bargaining"] },
+        "Unit_V": { "title": "Special Acts", "topics": ["Juvenile Justice (Care & Protection) Act 2000", "Probation of Offenders Act 1958"] }
+      },
+      "Administrative_Law": {
+        "Unit_I": { "title": "Nature and Scope", "topics": ["Nature and scope of Administrative Law", "Separation of Powers", "Rule of Law", "Classification of Administrative Action"] },
+        "Unit_II": { "title": "Legislative Power", "topics": ["Delegated Legislation", "Doctrine of excessive Delegation", "Judicial and Parliamentary control", "Advantages and disadvantages", "Administrative directions"] },
+        "Unit_III": { "title": "Judicial Power", "topics": ["Quasi-judicial authorities", "Natural Justice: Bias and Audi Alteram Partem", "Reasoned decisions", "Exceptions to Natural Justice"] },
+        "Unit_IV": { "title": "Discretion and Control", "topics": ["Judicial review of Administrative Discretion", "Public and Private Law Remedies", "Writs Theory and Practice", "State Liability in Contract and Tort", "Promissory Estoppel", "Legitimate expectation"] },
+        "Unit_V": { "title": "Accountability Mechanism", "topics": ["Control of statutory corporations", "Administrative deviance and Corruption", "Ombudsman: Lokpal and Lokayukta", "Central Vigilance Commission", "Commissions of Enquiry"] }
+      }
+    },
+    "4th_Semester": {
+      "Public_International_Law": {
+        "Unit_I": { "title": "Nature and Sources", "topics": ["Definition and Basis of International Law", "Sources of International Law", "Municipal vs International Law", "Subjects of International Law"] },
+        "Unit_II": { "title": "States as Subjects", "topics": ["States in general", "Recognition of States", "State territorial sovereignty"] },
+        "Unit_III": { "title": "State Jurisdiction", "topics": ["Law of the sea", "State Responsibility", "Succession to rights and obligations"] },
+        "Unit_IV": { "title": "Individual & Treaties", "topics": ["Extradition and Asylum", "Nationality", "Diplomatic envoys and consuls", "Law and practice of treaties"] },
+        "Unit_V": { "title": "International Organisations", "topics": ["United Nations (UN) organs and functions", "World Trade Organisation (WTO)", "International Labour Organisation (ILO)"] }
+      },
+      "Optional_I_Human_Rights": {
+        "Unit_I": { "title": "Jurisprudence of HR", "topics": ["Nature, definition and origin", "Theories of human rights"] },
+        "Unit_II": { "title": "Universal Protection", "topics": ["United Nations and Human Rights", "Universal Declaration of Human Rights 1948", "ICCPR 1966", "ICESCR 1966"] },
+        "Unit_III": { "title": "Regional Protection", "topics": ["European system", "Inter-American System", "African System"] },
+        "Unit_IV": { "title": "National Protection", "topics": ["Human rights and the Constitution", "Protection of Human Rights Act 1993"] },
+        "Unit_V": { "title": "Vulnerable Groups", "topics": ["Rights of Women and Children", "Rights of Disabled and Tribals", "Aged and Minorities protection"] }
+      },
+      "Optional_I_Insurance_Law": {
+        "Unit_I": { "title": "Introduction to Insurance", "topics": ["History and development in India", "Classification: Life, General, Re-insurance", "Insurance Act 1938", "IRDA Act 1999"] },
+        "Unit_II": { "title": "Principles of Insurance", "topics": ["Uberrimae fidei (Good faith)", "Insurable Interest", "Principle of Indemnity", "Subrogation and Contribution", "Causa Proxima", "Premium and Days of grace"] },
+        "Unit_III": { "title": "Life & Motor Insurance", "topics": ["Nature of Life Insurance", "Settlement of claims", "LIC Act 1956", "Motor Vehicles Act 1988 (Sec 140-176)", "No fault liability", "Third party insurance"] },
+        "Unit_IV": { "title": "Fire & Agriculture Insurance", "topics": ["Fire Insurance Principles", "Agriculture (Crop) Insurance", "Cattle and Micro Insurance", "Public Liability Insurance Act 1991", "Insurance Ombudsman"] },
+        "Unit_V": { "title": "Marine Insurance", "topics": ["Nature and Classification of Marine policies", "Warranties and Voyage Deviation", "Perils of sea", "Marine Insurance Act 1963"] }
+      },
+      "Optional_II_Banking_Law": {
+        "Unit_I": { "title": "Banking Development", "topics": ["History and indigenous banking", "Kinds of banks", "Banking Companies controls", "Management and Audit", "Lending and Credit policy"] },
+        "Unit_II": { "title": "RBI & Regulation", "topics": ["Banking Regulation Act 1949", "Reserve Bank of India (RBI) functions", "Monetary mechanism regulation", "Credit and Exchange control", "Deposit Insurance Corporation Act 1961"] },
+        "Unit_III": { "title": "Banker-Customer Relation", "topics": ["Legal character of relationship", "Banker’s lien", "Nature and type of accounts", "Rights and duties", "Consumer protection in banking"] },
+        "Unit_IV": { "title": "Negotiable Instruments", "topics": ["Negotiable Instruments Act 1881", "Holders and Holder in due course", "Endorsement and Liability", "Material alteration", "Penal provisions (NI Act)"] },
+        "Unit_V": { "title": "Lending & Technology", "topics": ["Securities for advances", "Debt Recovery Tribunal", "Recent Trends: IT and Automation", "ATM, Internet banking, and Smart cards"] }
+      },
+      "Optional_II_RTI": {
+        "Unit_I": { "title": "Historical Development", "topics": ["Freedom of Information (Sweden, USA, UK)", "RTI in India before 2005", "Constitutional basis", "Supreme Court on RTI"] },
+        "Unit_II": { "title": "RTI Act 2005", "topics": ["Act definitions", "Obligations of public authorities"] },
+        "Unit_III": { "title": "Information Commissions", "topics": ["Central Information Commission", "State Information Commission", "Appeals and Penalties"] },
+        "Unit_IV": { "title": "Related Laws", "topics": ["Official Secrets Act 1923", "Public Records Act 1993", "Freedom of Information Act 2002", "Commission of Inquiry Act 1952"] },
+        "Unit_V": { "title": "Judicial Response", "topics": ["Supreme Court & High Court decisions", "Best practices in Government Departments"] }
+      },
+      "Clinical_I_Professional_Ethics": {
+        "Unit_I": { "title": "Legal Profession", "topics": ["Responsibilities of lawyers", "Conduct in Court", "Advocates Act 1961", "Privileges of a lawyer"] },
+        "Unit_II": { "title": "Lawyer's Duties", "topics": ["Duty to Court and Profession", "Duty to Opponent and Client", "Duty to Public and State"] },
+        "Unit_III": { "title": "Contempt of Court", "topics": ["Contempt of Court Act 1972", "Major Supreme Court Judgments"] },
+        "Unit_IV": { "title": "Bar Council Opinions", "topics": ["Selected opinions of Bar Council of India"] },
+        "Unit_V": { "title": "Accountancy for Lawyers", "topics": ["Maintenance of accounts (Cash Book, Ledger)", "Double entry system", "Trial balance and Final accounts"] }
+      },
+      "Clinical_II_ADR": {
+        "Unit_I": { "title": "Intro to ADR", "topics": ["Different methods (Arbitration, Conciliation, etc.)", "Need for ADRs", "CPC and ADRs"] },
+        "Unit_II": { "title": "Arbitration", "topics": ["Meaning and Attributes", "Arbitration Agreement drafting", "Arbitral award", "Arbitration and Conciliation Act 1996"] },
+        "Unit_III": { "title": "Conciliation", "topics": ["Facilitative vs Evaluative conciliation", "Conciliation under statutes (ID Act, Family Courts Act)", "Role of conciliator"] },
+        "Unit_IV": { "title": "Negotiation", "topics": ["Styles and approaches", "Phases of negotiation", "Qualities of a negotiator"] },
+        "Unit_V": { "title": "Mediation", "topics": ["Characteristics of mediation", "Role of mediator", "Code of conduct for mediators"] }
+      }
+    },
+    "5th_Semester": {
+      "Company_Law": {
+        "Unit_I": { "title": "Intro and Concept", "topics": ["Nature and characteristics of company", "Kinds of company", "Corporate personality", "Lifting of corporate veil", "Promoters: duties and liability"] },
+        "Unit_II": { "title": "Incorporation", "topics": ["Procedure of incorporation", "Certificate of incorporation", "MOA & AOA", "Doctrine of indoor management", "Prospectus"] },
+        "Unit_III": { "title": "Management & Control", "topics": ["Board of Directors: powers and functions", "Appointment and qualification of directors", "Meetings: kinds and procedure", "Prevention of oppression and Mismanagement", "Corporate social responsibility (CSR)"] },
+        "Unit_IV": { "title": "Financial Structure", "topics": ["Shares: types, allotment, transfer", "Dividends declaration and payment", "Debentures: kinds and trustees", "Acceptance of Deposit", "Charge on assets"] },
+        "Unit_V": { "title": "Reconstruction & Winding Up", "topics": ["Reconstruction and amalgamation", "Takeover and acquisition", "Winding up: concept and modes", "Procedure for winding up", "NCLT jurisdiction"] }
+      },
+      "CPC_and_Limitation_Act": {
+        "Unit_I": { "title": "Introduction & Suits", "topics": ["Procedural vs Substantive law", "Jurisdiction of Civil Courts (Sec 9)", "Res sub judice and Res judicata", "Foreign Judgment", "Place of Suits", "Transfer of Cases"] },
+        "Unit_II": { "title": "Pleadings & Parties", "topics": ["Institution of suits and Summons", "Pleading rules: Plaint and Written Statement", "Return and rejection of plaint", "Defences: Set off and Counter claim", "Joinder and misjoinder of parties"] },
+        "Unit_III": { "title": "Trial & Execution", "topics": ["Discovery and inspection", "First hearing and framing of issues", "Judgment and Decree", "Execution principles", "Mode of execution: Arrest, Attachment, Sale"] },
+        "Unit_IV": { "title": "Particular Suits & Orders", "topics": ["Suits by/against Government", "Suits by Indigent persons", "Inter-pleader suits", "Interim Orders: Commissions and Injunctions", "Appeals, Reference, Review, Revision", "Inherent powers (Sec 151)"] },
+        "Unit_V": { "title": "Limitation Act", "topics": ["Limitation Act 1963 general principles"] }
+      },
+      "Optional_III_IPR_I": {
+        "Unit_I": { "title": "Intro & Patents", "topics": ["Concept of Property and IPR", "Patent protection overview", "How to obtain a patent", "Rights and obligations of patentee", "Infringement and Penalties"] },
+        "Unit_II": { "title": "Trade Marks", "topics": ["Meaning and definition of Trade mark", "Registrable and non-registrable marks", "Deceptive similarity", "Assignment and transmission", "Infringement and Passing off", "Domain name protection"] },
+        "Unit_III": { "title": "Cyber IP", "topics": ["Intellectual property and cyberspace", "Software patent and Copyright", "Software piracy", "IT Act IPR provisions", "Internet policy of India"] },
+        "Unit_IV": { "title": "Geographical Indications", "topics": ["Meaning and scope of GI", "Protection of Geographical Indications Act", "Registration and Infringement", "Conflict between Trade mark and GI"] },
+        "Unit_V": { "title": "International Treaties", "topics": ["Paris Convention", "Patent Cooperation Treaty (PCT)", "Madrid Convention", "WIPO background and features"] }
+      },
+      "Optional_III_Penology": {
+        "Unit_I": { "title": "Intro to Punishment", "topics": ["Notion of punishment in law", "Crime prevention vs control", "Theories of punishments"] },
+        "Unit_II": { "title": "Punishment Kinds", "topics": ["Kinds of punishment", "Sentencing policies", "Capital punishment riddle"] },
+        "Unit_III": { "title": "Prison & Victimology", "topics": ["Prison reforms", "Alternatives to imprisonment", "Victimology history and philosophy"] },
+        "Unit_IV": { "title": "Victim Assistance", "topics": ["European and American experience", "Victim witness assistance programmes", "Restitution"] },
+        "Unit_V": { "title": "Victimology in India", "topics": ["Legal framework in India", "Role of Courts", "Role of NHRC"] }
+      },
+      "Optional_IV_Interpretation": {
+        "Unit_I": { "title": "Statutory Interpretation", "topics": ["Meaning of Statutes", "Commencement and repeal", "Restrictive and beneficial construction", "Taxing and Penal statutes", "Directory vs Mandatory provisions"] },
+        "Unit_II": { "title": "Aids to Interpretation", "topics": ["Internal aids: Preamble, Headings, Punctuation", "External aids: Dictionaries, Travaux Preparatiores", "Statutes in parimaterial", "Law Commission reports"] },
+        "Unit_III": { "title": "Rules & Principles", "topics": ["Literal, Golden, and Mischief rules", "Harmonious construction", "Ejusdem generis", "Pith and substance", "Colourable legislation", "Repugnancy"] },
+        "Unit_IV": { "title": "Presumptions", "topics": ["Statutes are valid and territorial", "Presumption against injustice", "Prospective operation of statutes"] },
+        "Unit_V": { "title": "Legislation Principles", "topics": ["Law-making process", "Principle of utility", "Morals vs Legislation"] }
+      },
+      "Optional_IV_Competition": {
+        "Unit_I": { "title": "Competition Policy", "topics": ["Function of Competition Law", "Practices controlled", "Constitutional provisions"] },
+        "Unit_II": { "title": "US & UK Laws", "topics": ["Sherman Antitrust Act", "Clayton Act", "UK Competition Act 1998", "UK Enterprise Act 2002"] },
+        "Unit_III": { "title": "Indian Competition Law", "topics": ["Monopolies and Restrictive Trade Practices Act", "Competition Act 2002", "Anti-competitive agreements", "Abuse of dominant position", "Regulation of combinations"] },
+        "Unit_IV": { "title": "CCI Functions", "topics": ["Competition Commission of India composition", "Duties, powers and functions"] },
+        "Unit_V": { "title": "Enforcement", "topics": ["Duties of Director general", "Penalties", "Competition advocacy", "Important Case Law"] }
+      },
+      "Clinical_III_Drafting": {
+        "Unit_I": { "title": "Drafting Principles", "topics": ["General principles of drafting", "Substantive rules of drafting"] },
+        "Unit_II": { "title": "Civil Pleadings", "topics": ["Plaint and Written statement", "Interlocutory applications", "Original petition and Affidavits", "Appeals and Revisions", "Writ petitions (Art 226/32)"] },
+        "Unit_III": { "title": "Criminal Pleadings", "topics": ["Complaint drafting", "Criminal misc petitions", "Bail applications", "Criminal appeals and revisions"] },
+        "Unit_IV": { "title": "Conveyance", "topics": ["Sale, Mortgage, and Lease deeds", "Gift deed and Promissory note", "Power of Attorney and Will", "Trust and Partition deeds"] },
+        "Unit_V": { "title": "Special Petitions", "topics": ["Drafting of Writ petition", "Public Interest Litigation (PIL) petition"] }
+      }
+    },
+    "6th_Semester": {
+      "Law_of_Evidence": {
+        "Unit_I": { "title": "Introduction & Relevancy", "topics": ["Substantive vs Procedural law", "Salient features of Evidence Act", "Facts in issue and relevant facts", "Doctrine of Res gestae", "Relevancy of Admissions (Sec 17-23)"] },
+        "Unit_II": { "title": "Confessions & Statements", "topics": ["Confessions (Sec 24-30)", "Dying declaration (Sec 32)", "Statements under special circumstances", "Relevance of judgments", "Expert testimony (Sec 45-50)"] },
+        "Unit_III": { "title": "Character & Proof", "topics": ["Character evidence", "Oral and documentary Evidence", "Proof of facts", "Exclusion of oral by documentary evidence"] },
+        "Unit_IV": { "title": "Burden of Proof & Estoppel", "topics": ["Onus probandi (Sec 101)", "Presumption of legitimacy and dowry death", "Scope of Estoppel", "Equitable and Promissory Estoppel"] },
+        "Unit_V": { "title": "Witness Examination", "topics": ["Competence to testify", "Privileged communications", "Examination and Cross examination", "Hostile witnesses", "Corroboration"] }
+      },
+      "Environmental_Law": {
+        "Unit_I": { "title": "Idea of Environment", "topics": ["Meaning and components of Environment", "Sources and effects of pollution", "Environmental jurisprudence", "National environmental policy"] },
+        "Unit_II": { "title": "Policy and Law", "topics": ["Constitutional provisions (Right to Environment)", "Public interest litigation (PIL)", "Polluter pays and Precautionary principles", "Public trust doctrine"] },
+        "Unit_III": { "title": "International Law", "topics": ["Sustainable Development", "Stockholm, Rio, and Johannesburg Declarations", "Trans-boundary Pollution", "Criminal Law and environment"] },
+        "Unit_IV": { "title": "Pollution Control Acts", "topics": ["Water Act 1974 and Air Act 1981", "Pollution Control Boards", "Wildlife Protection Act 1972", "Forest Conservation Act 1980"] },
+        "Unit_V": { "title": "Environment Protection Act", "topics": ["Environment Protection Act 1986", "ECO-Mark and Environmental Audit", "Coastal Regulation Zone (CRZ)", "Impact Assessment (EIA)", "Bio-Medical and Solid Waste regulation"] }
+      },
+      "Optional_V_IPR_II": {
+        "Unit_I": { "title": "Copyright Law", "topics": ["Subject matter of copyright", "Ownership and Rights", "Term of copyright", "Infringement and Remedies", "Software protection"] },
+        "Unit_II": { "title": "Biological Diversity", "topics": ["Traditional knowledge", "Biological Diversity Act 2002", "National Biodiversity Authority", "State Biodiversity Board"] },
+        "Unit_III": { "title": "Plant Varieties & Farmers Rights", "topics": ["IPR in new plant varieties", "PPV&FR Act objectives", "National register and registration", "Benefit sharing and Gene Fund"] },
+        "Unit_IV": { "title": "Designs Law", "topics": ["Salient features of Designs Law", "Registration procedure", "Copyright in registered designs", "Distinction from other IPRs"] },
+        "Unit_V": { "title": "International IPR Treaties", "topics": ["TRIPS Agreement", "Berne Convention", "Convention on Biological Diversity (CBD)", "WTO Doha round"] }
+      },
+      "Optional_V_White_Collar_Crimes": {
+        "Unit_I": { "title": "Intro to Deviance", "topics": ["Concept of white collar crime", "Official, professional, and police deviance", "Upper class and gender based deviance"] },
+        "Unit_II": { "title": "Corruption Law", "topics": ["Official deviance", "Prevention of Corruption Act 1988"] },
+        "Unit_III": { "title": "Political Deviance", "topics": ["N.N.Vorha Committee Report", "Lokpal and Lokayukta institutions"] },
+        "Unit_IV": { "title": "Professional Deviance", "topics": ["Medical and Legal profession deviance", "Lentin Commission Report", "BCI Disciplinary Committee opinions"] },
+        "Unit_V": { "title": "Vulnerable Groups Deviance", "topics": ["Sexual harassment (Gender based deviance)", "Offences against SC/ST"] }
+      },
+      "Optional_VI_Land_Law": {
+        "Unit_I": { "title": "Land Acquisition I", "topics": ["Land Acquisition Act 2013", "Social impact and public purpose", "Rehabilitation and resettlement award"] },
+        "Unit_II": { "title": "Land Acquisition II", "topics": ["Utilisation and conversion", "National Monitoring Committee", "Apportionment of compensation"] },
+        "Unit_III": { "title": "Karnataka Land Revenue", "topics": ["Karnataka Land Revenue Act 1964", "Revenue officers and procedure", "Record of rights"] },
+        "Unit_IV": { "title": "Land Reforms", "topics": ["SC/ST Prohibition of Transfer Act 1978", "Karnataka Land Reforms Act 1961", "Ceiling on land holdings"] },
+        "Unit_V": { "title": "RERA", "topics": ["Real Estate (Regulation and Development) Act 2016", "Registration of projects and agents", "Promoter duties", "Regulatory Authority and Tribunal"] }
+      },
+      "Optional_VI_Intl_Trade": {
+        "Unit_I": { "title": "Trade Institutions", "topics": ["UNCTAD, UNCITRAL, GATT", "WTO Structure and Power", "Most Favored Nation Treatment", "Tariffs and Safeguards"] },
+        "Unit_II": { "title": "Trade Barriers", "topics": ["Technical and Sanitary barriers", "TRIMs", "Anti-Dumping and Subsidies", "Dispute Settlement Process"] },
+        "Unit_III": { "title": "Sales of Goods", "topics": ["International Sales contracts", "Standardization of Terms", "Rejection of Goods", "Product liability"] },
+        "Unit_IV": { "title": "Carriage & Insurance", "topics": ["Insurance of Goods in Transit", "Carriage of goods by sea, land, air", "Export/Import Licensing"] },
+        "Unit_V": { "title": "Finance & Investment", "topics": ["FDI and FII policies", "Investment by NRIs and OCBs", "Foreign Technology Agreements", "Foreign Companies in India"] }
+      },
+      "Clinical_IV_Moot_Court": {
+        "Unit_I": { "title": "Moot Court Exercise", "topics": ["Oral advocacy", "Written submissions", "Marshalling arguments"] },
+        "Unit_II": { "title": "Observation of Trial", "topics": ["Attendance in Civil case", "Attendance in Criminal case", "Step-by-step trial record"] },
+        "Unit_III": { "title": "Client Interviewing", "topics": ["Observation at Lawyer’s Office", "Recording proceedings in diary"] },
+        "Unit_IV": { "title": "Pre-trial Preparation", "topics": ["Preparation of court papers", "Filing of suit/petition procedure"] },
+        "Unit_V": { "title": "Internship", "topics": ["12 weeks internship requirement", "Experience with NGOs, firms, or authorities"] }
       }
     }
   }
